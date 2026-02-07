@@ -3,9 +3,9 @@ const http = require('http');
 
 function startBot() {
   const bot = mineflayer.createBot({
-    host: process.env.SERVER_HOST || 'servername.aternos.me',
-    port: parseInt(process.env.SERVER_PORT) || 20540,
-    username: process.env.BOT_USERNAME || 'VanirMC',
+    host: process.env.SERVER_HOST || 'TheLilFrog2926.aternos.me',
+    port: parseInt(process.env.SERVER_PORT) || 37587,
+    username: process.env.BOT_USERNAME || 'AFKBot',
     auth: 'offline',
     version: false // auto-detect
   });
