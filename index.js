@@ -7,7 +7,7 @@ function startBot() {
     port: parseInt(process.env.SERVER_PORT) || 37587,
     username: process.env.BOT_USERNAME || 'AFKBot',
     auth: 'offline',
-    version: false // auto-detect
+    version: false // 1.12.2
   });
 
   bot.once('spawn', () => {
